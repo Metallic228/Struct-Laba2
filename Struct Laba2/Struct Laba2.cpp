@@ -10,7 +10,7 @@
 using namespace std;
 using namespace std::chrono;
 
-const int N = 256; // размерность матриц
+const int N = 2048; // размерность матриц
 using Complex = complex<float>; // Создаём псевдоним для комплекса
 
 double compute_mflops(double time_seconds) {
